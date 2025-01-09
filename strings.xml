@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lost and Found</string>
+    <string name="app_logo">logo</string>
+
+    <string name="pet_name_hint">Pet Name</string>
+    <string name="pet_type_hint">Pet Type (e.g., Dog, Cat)</string>
+    <string name="last_seen_hint">Last Seen Location</string>
+    <string name="reward_hint">Reward (optional)</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="submit_pet">Submit Pet</string>
+    <string name="call_owner">Call Owner</string>
+    <string name="email_owner">Email Owner</string>
+    <string name="message_owner">Message Owner</string>
+
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+
+</resources>

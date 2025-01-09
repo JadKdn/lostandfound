@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Edit Username -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Username"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/etEditUsername" />
+
+    <!-- Edit Phone Number -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edit Phone Number"
+        android:inputType="phone"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/etEditPhoneNumber" />
+
+    <!-- Save Changes Button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:backgroundTint="@color/teal_500"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/btnSaveChanges" />
+</LinearLayout>

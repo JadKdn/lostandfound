@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="ifRoom"
+        android:id="@+id/homenav"/>
+
+    <item
+        android:id="@+id/nav_pets"
+        android:icon="@drawable/pets"
+        android:title="Pets"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile"
+        app:showAsAction="ifRoom" />
+
+</menu>

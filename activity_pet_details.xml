@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PetDetailsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Mark as Found Button -->
+            <Button
+                android:id="@+id/btnMarkAsFound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mark as Found"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="@color/teal_500"
+                android:textColor="@android:color/white" />
+
+            <!-- Lost Badge -->
+            <TextView
+                android:id="@+id/tvLostBadge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/rounded_pink_badge"
+                android:padding="6dp"
+                android:text="LOST"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <!-- Pet Image -->
+            <ImageView
+                android:id="@+id/ivPetImage"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="fitCenter" />
+
+            <!-- Pet Name -->
+            <TextView
+                android:id="@+id/tvPetName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Last Seen -->
+            <TextView
+                android:id="@+id/tvLastSeen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp" />
+
+            <!-- Reward -->
+            <TextView
+                android:id="@+id/tvReward"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Owner Details -->
+            <TextView
+                android:id="@+id/tvOwnerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/tvOwnerEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp" />
+
+            <TextView
+                android:id="@+id/tvOwnerPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Contact Buttons -->
+            <Button
+                android:id="@+id/btnCallOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call Owner"
+                android:backgroundTint="@color/teal_500"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btnEmailOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Owner"
+                android:backgroundTint="@color/teal_500"
+                android:layout_marginBottom="8dp" />
+
+            <Button
+                android:id="@+id/btnMessageOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/teal_500"
+                android:text="Message Owner" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
